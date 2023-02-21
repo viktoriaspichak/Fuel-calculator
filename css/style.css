@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 20px 50px;
+  background-color: #E6E6FA;
+}
+header .title {
+  max-width: 1250px;
+  margin: auto;
+}
+header .title h1 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 30px;
+  line-height: 24px;
+  color: #333;
+}
+
+.cost {
+  padding: 130px 0;
+  background: ghostwhite;
+  height: 100vh;
+}
+.cost .container {
+  padding: 30px 40px;
+  max-width: 625px;
+  margin: auto;
+  background: white;
+}
+.cost .container h2 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 25px;
+  line-height: 24px;
+  color: #333;
+}
+.cost .distance {
+  margin-bottom: 30px;
+}
+.cost .distance .trip1 {
+  display: block;
+  margin: 5px;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333;
+}
+.cost .distance #trip {
+  height: 23px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+.cost .distance span {
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #333;
+}
+.cost .consumption {
+  margin-bottom: 30px;
+}
+.cost .consumption .cons {
+  display: block;
+  margin: 5px;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333;
+}
+.cost .consumption #consumption {
+  height: 23px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+.cost .consumption span {
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #333;
+}
+.cost .amount {
+  margin-bottom: 50px;
+}
+.cost .amount .amount1 {
+  display: block;
+  margin: 5px;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333;
+}
+.cost .amount #amount {
+  height: 23px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+.cost .amount span {
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #333;
+}
+.cost .calc {
+  text-align: center;
+}
+.cost .calc button {
+  border: none;
+  width: 150px;
+  background-color: #000000;
+  border-radius: 11px;
+  color: white;
+  padding: 6px 15px;
+  font-size: 23px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
