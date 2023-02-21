@@ -1,0 +1,124 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  padding: 20px 50px;
+  background-color: #E6E6FA;
+  .title{
+    max-width: 1250px;
+    margin: auto;
+    h1{
+      font-family: 'Playfair Display', serif;
+      text-align: center;
+      font-size: 30px;
+      line-height: 24px;
+      color: #333;
+    }
+  }
+}
+.cost {
+  padding: 130px 0;
+  background: ghostwhite;
+  height: 100vh;
+
+  .container {
+    padding: 30px 40px;
+    max-width: 625px;
+    margin: auto;
+    background: white;
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      text-align: center;
+      font-size: 25px;
+      line-height: 24px;
+      color: #333;
+    }
+  }
+
+  .distance {
+    margin-bottom: 30px;
+    .trip1 {
+      display: block;
+      margin: 5px;
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      line-height: 24px;
+      color: #333;
+    }
+    #trip{
+      height: 23px;
+      box-sizing: border-box;
+      border: 1px solid black;
+      border-radius: 7px;
+    }
+    span{
+      font-family: 'Playfair Display', serif;
+      font-size: 15px;
+      line-height: 24px;
+      color: #333
+    }
+  }
+
+  .consumption{
+    margin-bottom: 30px;
+    .cons{
+      display: block;
+      margin: 5px;
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      line-height: 24px;
+      color: #333;}
+      #consumption{
+        height: 23px;
+        box-sizing: border-box;
+        border: 1px solid black;
+        border-radius: 7px;}
+      span{
+        font-family: 'Playfair Display', serif;
+        font-size: 15px;
+        line-height: 24px;
+        color: #333
+      }
+    }
+
+  .amount{
+    margin-bottom: 50px;
+    .amount1{
+      display: block;
+      margin: 5px;
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      line-height: 24px;
+      color: #333;
+    }
+    #amount{
+      height: 23px;
+      box-sizing: border-box;
+      border: 1px solid black;
+      border-radius: 7px;
+    }
+    span{
+      font-family: 'Playfair Display', serif;
+      font-size: 15px;
+      line-height: 24px;
+      color: #333
+    }
+  }
+  .calc{
+    text-align: center;
+    button{
+      border: none;
+      width:150px;
+      background-color: #000000;
+      border-radius:11px;
+      color: white;
+      padding: 6px 15px;
+      font-size: 23px;
+      line-height: 24px;
+      cursor: pointer;
+    }
+  }
+
+  }

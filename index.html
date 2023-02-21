@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fuel calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<header>
+    <div class="title">
+        <h1>
+            Fuel calculator
+        </h1>
+    </div>
+</header>
+<main>
+    <section class="cost">
+    <div class="container">
+        <h2>Travel cost</h2>
+        <form action="#" method="post" name="form">
+            <div class="distance">
+                <label class="trip1" for="trip"> Distance</label>
+                <input type="text" name="trip" id="trip">
+                <span>km</span>
+            </div>
+            <div class="consumption">
+                <label class="cons" for="consumption">Average fuel consumption</label>
+                <input type="text" name="consumption" id="consumption">
+                <span>l/100km</span>
+            </div>
+            <div class="calc">
+                <button type="button" id="calculate"> Calculate</button>
+            </div>
+            <div class="amount">
+                <label class="amount1" for="amount">Amount of fuel</label>
+                <input type="text" name="amount" id="amount">
+                <span>liters</span>
+            </div>
+        </form>
+    </div>
+    </section>
+</main>
+
+
+</body>
+<script src="js/scripts.js"></script>
+</html>
